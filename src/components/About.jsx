@@ -38,25 +38,25 @@ const About = () => {
           containerClass="mt-5 !text-black text-center"
         />
 
-        <div className="relative z-10 mt-16 px-10 max-w-5xl">
-          <p className="text-center font-circular-web text-lg mb-4">Computer science engineer with over 3 years of experience, delivering high-impact, production-ready systems across AI, full-stack development, and distributed architecture.</p>
-          <p className="text-center text-gray-500 font-circular-web">
+        <div className="about-subtext">
+          <p className="text-white drop-shadow-lg mb-4">Computer science engineer with over 3 years of experience, delivering high-impact, production-ready systems across AI, full-stack development, and distributed architecture.</p>
+          <p className="text-blue-100 drop-shadow-lg mb-8">
             Currently pursuing B.Tech in Computer Science & Engineering at Chennai Institute of Technology (2024-2028), while building scalable solutions that bridge engineering excellence with real-world impact.
           </p>
-          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-lg">
-              <h3 className="font-general text-sm font-semibold mb-3">Focus Areas</h3>
-              <ul className="text-sm text-gray-600 space-y-2">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 text-left max-w-3xl mx-auto">
+            <div className="bg-black/40 backdrop-blur-md p-6 rounded-lg border border-white/20">
+              <h3 className="font-general text-base font-semibold mb-3 text-yellow-300">Focus Areas</h3>
+              <ul className="text-sm text-white space-y-2">
                 <li>→ AI & Machine Learning Systems</li>
                 <li>→ Full-Stack Web Development</li>
                 <li>→ Cloud Architecture & DevOps</li>
                 <li>→ Data Structures & Algorithms</li>
               </ul>
             </div>
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-lg">
-              <h3 className="font-general text-sm font-semibold mb-3">Education</h3>
-              <p className="text-sm text-gray-600">
-                <b>B.Tech Computer Science</b><br />
+            <div className="bg-black/40 backdrop-blur-md p-6 rounded-lg border border-white/20">
+              <h3 className="font-general text-base font-semibold mb-3 text-yellow-300">Education</h3>
+              <p className="text-sm text-white">
+                <b className="text-blue-200">B.Tech Computer Science</b><br />
                 Chennai Institute of Technology<br />
                 2024 - 2028
               </p>
@@ -65,7 +65,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="h-dvh w-screen mt-20" id="clip">
+      <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
           <img
             src="img/about.webp"
