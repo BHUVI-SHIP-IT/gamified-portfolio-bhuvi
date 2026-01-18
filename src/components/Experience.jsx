@@ -137,7 +137,7 @@ const Experience = () => {
     return (
         <section id="experience" className="min-h-screen w-screen bg-black py-20 relative overflow-hidden">
             {/* Background Image */}
-            <div id="experience-video" className="absolute inset-0 opacity-15">
+            <div id="experience-video" className="absolute inset-0 opacity-25">
                 <img
                     src="/img/abstract-tech-bg.png"
                     alt="background"

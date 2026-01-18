@@ -125,9 +125,9 @@ const Achievements = () => {
     });
 
     return (
-        <section id="achievements" className="min-h-screen w-screen bg-violet-300 py-20 relative overflow-hidden">
+        <section id="achievements" className="min-h-screen w-screen bg-black py-20 relative overflow-hidden">
             {/* Background Image */}
-            <div id="achievements-bg" className="absolute inset-0 opacity-20">
+            <div id="achievements-bg" className="absolute inset-0 opacity-[0.15]">
                 <img
                     src="/img/dramatic-tech-bg.png"
                     alt="background"
@@ -154,14 +154,14 @@ const Achievements = () => {
 
             <div className="container mx-auto px-4 md:px-10 relative z-10">
                 <div className="mb-16 text-center">
-                    <p className="font-general text-sm uppercase text-black/60 mb-4">
+                    <p className="font-general text-sm uppercase text-blue-50/60 mb-4">
                         Achievements & Recognition
                     </p>
                     <AnimatedTitle
                         title="Milestones <b>&</b> <br /> Accomplishments"
-                        containerClass="mt-5 !text-black"
+                        containerClass="mt-5 !text-blue-50"
                     />
-                    <p className="mt-6 max-w-2xl mx-auto text-black/70 font-circular-web">
+                    <p className="mt-6 max-w-2xl mx-auto text-gray-400 font-circular-web">
                         Recognized for excellence in competitive programming, hackathons, certifications, and community contributions.
                     </p>
                 </div>
@@ -177,20 +177,20 @@ const Achievements = () => {
                 {/* Stats Section */}
                 <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
                     <div className="text-center">
-                        <div className="text-5xl font-black text-black mb-2">500+</div>
-                        <div className="text-sm text-black/70 font-circular-web">LeetCode Problems</div>
+                        <div className="text-5xl font-black text-yellow-300 mb-2" style={{ textShadow: '0 0 20px rgba(0,0,0,0.8), 2px 2px 4px rgba(0,0,0,1)' }}>500+</div>
+                        <div className="text-sm text-white font-circular-web font-semibold" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8)' }}>LeetCode Problems</div>
                     </div>
                     <div className="text-center">
-                        <div className="text-5xl font-black text-black mb-2">1705</div>
-                        <div className="text-sm text-black/70 font-circular-web">Max Rating</div>
+                        <div className="text-5xl font-black text-yellow-300 mb-2" style={{ textShadow: '0 0 20px rgba(0,0,0,0.8), 2px 2px 4px rgba(0,0,0,1)' }}>1705</div>
+                        <div className="text-sm text-white font-circular-web font-semibold" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8)' }}>Max Rating</div>
                     </div>
                     <div className="text-center">
-                        <div className="text-5xl font-black text-black mb-2">2+</div>
-                        <div className="text-sm text-black/70 font-circular-web">AWS Certifications</div>
+                        <div className="text-5xl font-black text-yellow-300 mb-2" style={{ textShadow: '0 0 20px rgba(0,0,0,0.8), 2px 2px 4px rgba(0,0,0,1)' }}>2+</div>
+                        <div className="text-sm text-white font-circular-web font-semibold" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8)' }}>AWS Certifications</div>
                     </div>
                     <div className="text-center">
-                        <div className="text-5xl font-black text-black mb-2">10+</div>
-                        <div className="text-sm text-black/70 font-circular-web">Hackathons</div>
+                        <div className="text-5xl font-black text-yellow-300 mb-2" style={{ textShadow: '0 0 20px rgba(0,0,0,0.8), 2px 2px 4px rgba(0,0,0,1)' }}>10+</div>
+                        <div className="text-sm text-white font-circular-web font-semibold" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.8)' }}>Hackathons</div>
                     </div>
                 </div>
             </div>
