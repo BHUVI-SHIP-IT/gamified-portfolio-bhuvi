@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { TiLocationArrow } from "react-icons/ti";
+import AnimatedTitle from "./AnimatedTitle";
 
 export const BentoTilt = ({ children, className = "" }) => {
   const [transformStyle, setTransformStyle] = useState("");
@@ -69,10 +70,14 @@ const Features = () => (
   <section className="bg-black pb-52">
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
-        <p className="font-circular-web text-lg text-blue-50">
-          Selected Projects
+        <p className="font-general text-sm uppercase text-blue-50/60 mb-4">
+          Selected Work
         </p>
-        <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
+        <AnimatedTitle
+          title="Pro<b>j</b>ects"
+          containerClass="mt-5 !text-blue-50"
+        />
+        <p className="mt-6 max-w-2xl font-circular-web text-lg text-gray-400">
           Production-ready systems built at the intersection of AI, full-stack development,
           and distributed architecture—delivering measurable impact across diverse domains.
         </p>
